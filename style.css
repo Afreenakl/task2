@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html, 
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 100%;
+  margin: 0; 
+}
+
+body {
+  background-color: rgb(220, 199, 232);
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.summaryContainer {
+  width: 450px;
+  background-color: #fff;
+  border-radius: 1rem;
+  color: darkblue;
+  text-align: center;
+  margin: 0 auto; 
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.summaryTitle {
+  padding: 2rem 0 1rem 0;
+  font-weight: 900;
+  color: black;
+}
+.summaryDescription{
+  color: rgb(16, 16, 25);
+  padding-bottom: 1rem;
+  font-size: 16px;
+}
+.hero{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.hero,
+.icon {
+  max-width: 100%;
+  height: auto;
+  max-height: 220px;
+}.icon {
+  max-width: 100%;
+  height: auto;
+  max-height: 40px; 
+}
+
+
+.planContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.planBox {
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  width: 325px;
+}
+
+.plan {
+  display: flex;
+  color: black;
+}
+.planPrice {
+  color: gray;
+}
+.summaryContainer {
+  width: 350px;
+}
+
+
+
+.planInfo {
+  padding-left: 1rem;
+  text-align: center;
+}
+.btn {
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background: none;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  width: 330px;
+
+}
+.placeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--p-pale-blue);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.changeBtn {
+  color: darkblue;
+  margin-left: auto;
+}
+
+.changeBtn {
+  color: darkblue;
+}
+.proceedBtn {
+  background-color: darkblue;
+  color: #fff;
+}
+.cancelBtn{
+
+  color: rgb(10, 10, 10);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution * {
+  color: hsl(228, 45%, 44%);
+}
